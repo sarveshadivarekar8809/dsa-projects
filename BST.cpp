@@ -8,7 +8,7 @@ public:
     node* left;
     node* right;
 
-    // Constructor
+    
     node(int value) {
         data = value;
         left = nullptr;
