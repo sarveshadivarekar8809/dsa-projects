@@ -78,31 +78,4 @@ int main() {
             break;
         }
 
-        switch (choice) {
-            case 1:
-                create();
-                break;
-
-            case 2:
-                if (root == nullptr) {
-                    cout << "BST is Empty!" << endl;
-                }
-                else {
-                    cout << "Binary Search Tree Elements: ";
-                    display(root);
-                    cout << endl;
-                }
-                break;
-
-            case 3:
-                cout << "Exiting program..." << endl;
-                break;
-
-            default:
-                cout << "Invalid choice!" << endl;
-        }
-
-    } while (choice != 0);
-
-    return 0;
-}
+        
